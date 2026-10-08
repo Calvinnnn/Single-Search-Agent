@@ -1,5 +1,4 @@
 import os
-import certifi
 from dotenv import load_dotenv
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_community.tools.tavily_search import TavilySearchResults
@@ -7,7 +6,6 @@ from langchain import hub
 from langchain.agents import create_react_agent , AgentExecutor
 import streamlit as st
 import requests
-import langsmith
 from langchain.tools import tool
 
 
